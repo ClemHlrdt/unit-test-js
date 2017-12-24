@@ -12,7 +12,8 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha --watch ./test ./"
   },
   "keywords": [],
   "author": "",
